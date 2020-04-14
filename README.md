@@ -8,7 +8,7 @@
 
 Read more about [Thrift](https://thrift.apache.org).
 
-# How To Use This Image
+## How To Use This Image
 
 This is image is intended to run as an executable. Files are provided
 by mounting a directory. Here's an example of compiling
@@ -16,7 +16,7 @@ by mounting a directory. Here's an example of compiling
 
     docker run -v "$(pwd):/data" ahawkins/thrift thrift --gen rb /data/service.thrift
 
-# Language Specific Installations
+## Language Specific Installations
 
 Thrift generates code for many lanuages. Some languages have
 additional things to install besides the thrift compiler. They are
